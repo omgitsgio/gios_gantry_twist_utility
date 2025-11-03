@@ -28,7 +28,7 @@ This module can work with any printer running Klipper but was designed and teste
 Access your printer via SSH and run:
 
 ```bash
-cd /home/mks && wget -O - https://raw.githubusercontent.com/omgitsgio/gios_gantry_twist_analysis/db2e6d78321c007cf96c7c5a9f77947abbc07494/install.sh | bash
+cd /home/mks && wget -O - https://raw.githubusercontent.com/omgitsgio/gios_gantry_twist_utility/62a083f4c8356c34b2a8c6e02d26e93530addf10/install.sh | bash
 ```
 
 Add the configuration below to your `printer.cfg` **before** the `SAVE_CONFIG` section, then restart Klipper.
