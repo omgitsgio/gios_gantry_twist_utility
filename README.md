@@ -39,6 +39,8 @@ Add the configuration below to your `printer.cfg` **before** the `SAVE_CONFIG` s
 # Operation mode (0 = analysis, 1 = compensation):
 # mode: 0
 
+# graphs_folder: ~/printer_data/config/Gantry_twist_analysis
+
 # Mesh boundaries to probe. When in compensation mode, X values will be used for start_x and end_x.
 # min_x: 22.0
 # max_x: 283.0
@@ -46,7 +48,7 @@ Add the configuration below to your `printer.cfg` **before** the `SAVE_CONFIG` s
 # max_y: 283.0
 # calibrate_y: 152.5
 
-# Points per axis (grid_size * grid_size total).
+# Points per axis (grid_size * grid_size).
 # When in compensation mode, this will be the sample size along X-axis.
 # grid_size: 10
 
@@ -54,6 +56,8 @@ Add the configuration below to your `printer.cfg` **before** the `SAVE_CONFIG` s
 # bed_temp: 0.0
 # hotend_temp: 0.0
 ```
+For more configuration options please refer to [sample_config_complete.cfg](sample_config_complete.cfg).
+
 ## Usage
 
 Just send to your console:
